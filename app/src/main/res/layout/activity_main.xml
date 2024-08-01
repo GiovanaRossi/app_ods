@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/banner" />
 
     <ImageView
-        android:id="@+id/imgMenu2"
+        android:id="@+id/imgMenu"
         android:layout_width="428dp"
         android:layout_height="124dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,7 +68,7 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imgMenu2"
+        app:layout_constraintEnd_toEndOf="@+id/imgMenu"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -82,7 +82,7 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imgMenu2"
+        app:layout_constraintEnd_toEndOf="@+id/imgMenu"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -96,14 +96,14 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imgMenu2"
+        app:layout_constraintEnd_toEndOf="@+id/imgMenu"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.894" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/btnODS17"
         android:layout_width="169dp"
         android:layout_height="55dp"
         android:backgroundTint="#19486A"
@@ -117,7 +117,7 @@
         app:layout_constraintVertical_bias="0.816" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btnODS16"
         android:layout_width="168dp"
         android:layout_height="54dp"
         android:backgroundTint="#00689D"
@@ -132,7 +132,7 @@
         app:layout_constraintVertical_bias="0.74" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/btnODS15"
         android:layout_width="168dp"
         android:layout_height="57dp"
         android:backgroundTint="#56C02B"
@@ -147,7 +147,7 @@
         app:layout_constraintVertical_bias="0.658" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btnODS12"
         android:layout_width="168dp"
         android:layout_height="54dp"
         android:backgroundTint="#BF8B2E"
@@ -162,7 +162,7 @@
         app:layout_constraintVertical_bias="0.418" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/btnODS13"
         android:layout_width="166dp"
         android:layout_height="54dp"
         android:backgroundTint="#3F7E24"
@@ -177,7 +177,7 @@
         app:layout_constraintVertical_bias="0.496" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/btnODS14"
         android:layout_width="168dp"
         android:layout_height="54dp"
         android:backgroundTint="#0A97D9"
@@ -192,7 +192,7 @@
         app:layout_constraintVertical_bias="0.576" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnODS11"
         android:layout_width="169dp"
         android:layout_height="55dp"
         android:backgroundTint="#FD9D24"
@@ -207,7 +207,7 @@
         app:layout_constraintVertical_bias="0.337" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btnODS10"
         android:layout_width="168dp"
         android:layout_height="51dp"
         android:backgroundTint="#DD1367"
@@ -222,7 +222,7 @@
         app:layout_constraintVertical_bias="0.26" />
 
     <Button
-        android:id="@+id/button23"
+        android:id="@+id/btnODS6"
         android:layout_width="168dp"
         android:layout_height="57dp"
         android:backgroundTint="#26BDE2"
@@ -237,7 +237,7 @@
         app:layout_constraintVertical_bias="0.58" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/btnODS1"
         android:layout_width="168dp"
         android:layout_height="51dp"
         android:backgroundTint="#E5243E"
@@ -252,7 +252,7 @@
         app:layout_constraintVertical_bias="0.183" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/btnODS2"
         android:layout_width="169dp"
         android:layout_height="55dp"
         android:backgroundTint="#DEC150"
@@ -267,7 +267,7 @@
         app:layout_constraintVertical_bias="0.261" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/btnODS9"
         android:layout_width="169dp"
         android:layout_height="55dp"
         android:backgroundTint="#FD6925"
@@ -282,7 +282,7 @@
         app:layout_constraintVertical_bias="0.184" />
 
     <Button
-        android:id="@+id/button26"
+        android:id="@+id/btnODS8"
         android:layout_width="169dp"
         android:layout_height="55dp"
         android:backgroundTint="#A21942"
@@ -297,7 +297,7 @@
         app:layout_constraintVertical_bias="0.739" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/btnODS3"
         android:layout_width="165dp"
         android:layout_height="54dp"
         android:backgroundTint="#4C9F38"
@@ -312,7 +312,7 @@
         app:layout_constraintVertical_bias="0.341" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/btnODS4"
         android:layout_width="166dp"
         android:layout_height="54dp"
         android:backgroundTint="#B73636"
@@ -327,7 +327,7 @@
         app:layout_constraintVertical_bias="0.42" />
 
     <Button
-        android:id="@+id/button22"
+        android:id="@+id/btnODS5"
         android:layout_width="168dp"
         android:layout_height="54dp"
         android:backgroundTint="#FF3A21"
@@ -341,7 +341,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button24"
+        android:id="@+id/btnODS7"
         android:layout_width="168dp"
         android:layout_height="54dp"
         android:backgroundTint="#FCC30B"
