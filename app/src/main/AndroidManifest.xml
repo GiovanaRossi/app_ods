@@ -13,6 +13,21 @@
         android:theme="@style/Theme.AppODS"
         tools:targetApi="31">
         <activity
+            android:name=".ods17"
+            android:exported="false" />
+        <activity
+            android:name=".ods16"
+            android:exported="false" />
+        <activity
+            android:name=".ods15"
+            android:exported="false" />
+        <activity
+            android:name=".ods14"
+            android:exported="false" />
+        <activity
+            android:name=".ods13"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
