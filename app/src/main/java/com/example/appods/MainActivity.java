@@ -34,7 +34,34 @@ public class MenuActivity extends AppCompatActivity {
                 return Activity1.class;
             case 2:
                 return Activity2.class;
-            // Add cases for other buttons (3 to 16)
+            case 3:
+                return Activity1.class;
+            case 4:
+                return Activity2.class;
+            case 5:
+                return Activity1.class;
+            case 6:
+                return Activity2.class;
+            case 7:
+                return Activity1.class;
+            case 8:
+                return Activity2.class;
+            case 9:
+                return Activity1.class;
+            case 10:
+                return Activity2.class;
+            case 11:
+                return Activity1.class;
+            case 12:
+                return Activity2.class;
+            case 13:
+                return Activity1.class;
+            case 14:
+                return Activity2.class;
+            case 15:
+                return Activity1.class;
+            case 16:
+                return Activity2.class;    
             case 17:
                 return Activity17.class;
             default:
