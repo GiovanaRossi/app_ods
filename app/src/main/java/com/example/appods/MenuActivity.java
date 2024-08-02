@@ -31,39 +31,39 @@ public class MenuActivity extends AppCompatActivity {
     private Class<?> getTargetActivity(int buttonNumber) {
         switch (buttonNumber) {
             case 1:
-                return Activity1.class;
+                return Activity_ods_1.class;
             case 2:
-                return Activity2.class;
+                return Activity_ods_2.class;
             case 3:
-                return Activity1.class;
+                return Activity_ods_3.class;
             case 4:
-                return Activity2.class;
+                return Activity_ods_4.class;
             case 5:
-                return Activity1.class;
+                return Activity_ods_5.class;
             case 6:
-                return Activity2.class;
+                return Activity_ods_6.class;
             case 7:
-                return Activity1.class;
+                return Activity_ods_7.class;
             case 8:
-                return Activity2.class;
+                return Activity_ods_8.class;
             case 9:
-                return Activity1.class;
+                return Activity_ods_9.class;
             case 10:
-                return Activity2.class;
+                return Activity_ods_10.class;
             case 11:
-                return Activity1.class;
+                return Activity_ods_11.class;
             case 12:
-                return Activity2.class;
+                return Activity_ods_12.class;
             case 13:
-                return Activity1.class;
+                return Activity_ods_13.class;
             case 14:
-                return Activity2.class;
+                return Activity_ods_14.class;
             case 15:
-                return Activity1.class;
+                return Activity_ods_15.class;
             case 16:
-                return Activity2.class;    
+                return Activity_ods_16.class;    
             case 17:
-                return Activity17.class;
+                return Activity_ods_17.class;
             default:
                 return MenuActivity.class;
         }
