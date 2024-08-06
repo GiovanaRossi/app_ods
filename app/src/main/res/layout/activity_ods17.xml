@@ -43,9 +43,9 @@
             android:id="@+id/tvOdsDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar convallis lorem, et porta nunc suscipit nec. Vestibulum dui turpis, volutpat quis nulla a, faucibus ultricies urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ac semper ante, consectetur tristique tortor. Suspendisse molestie laoreet quam eget mattis. Sed at arcu aliquet, viverra nisi id, interdum ante. Curabitur pharetra, nisi id vehicula finibus, odio nunc euismod ante, consequat semper nibh arcu id velit. Nam a ante ut turpis auctor mollis sagittis et neque. Maecenas pharetra felis nibh, ut venenatis ipsum vulputate in."
-            android:textSize="16sp"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="O ODS 17 foca em fortalecer os meios de implementação e revitalizar a parceria global para o desenvolvimento sustentável. Isso inclui promover a cooperação internacional, mobilizar recursos financeiros e tecnológicos e fortalecer parcerias entre governos, setor privado e sociedade civil para alcançar os ODS de forma eficaz. "
+            android:textSize="16sp" />
 
     </ScrollView>
 
