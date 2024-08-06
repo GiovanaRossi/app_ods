@@ -1,9 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ods16">
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00689D"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:text="16"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp" />
+
+        <TextView
+            android:id="@+id/tvOdsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paz, Justiça e Instituições Eficazes"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvOdsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar convallis lorem, et porta nunc suscipit nec. Vestibulum dui turpis, volutpat quis nulla a, faucibus ultricies urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ac semper ante, consectetur tristique tortor. Suspendisse molestie laoreet quam eget mattis. Sed at arcu aliquet, viverra nisi id, interdum ante. Curabitur pharetra, nisi id vehicula finibus, odio nunc euismod ante, consequat semper nibh arcu id velit. Nam a ante ut turpis auctor mollis sagittis et neque. Maecenas pharetra felis nibh, ut venenatis ipsum vulputate in."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+    </ScrollView>
+
+    <!-- Button -->
+
+    <!-- Footer -->
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#004365"
+        android:padding="16dp"
+        android:text="Voltar" />
+
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="Giovana Rossi\nHenrique Cruz\nJohann Reis"
+        android:textAlignment="center" />
+
+</LinearLayout>
