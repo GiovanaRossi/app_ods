@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <!-- Header -->
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,6 +35,7 @@
     </LinearLayout>
 
     <!-- Main Content -->
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -43,9 +46,9 @@
             android:id="@+id/tvOdsDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pulvinar convallis lorem, et porta nunc suscipit nec. Vestibulum dui turpis, volutpat quis nulla a, faucibus ultricies urna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce ac semper ante, consectetur tristique tortor. Suspendisse molestie laoreet quam eget mattis. Sed at arcu aliquet, viverra nisi id, interdum ante. Curabitur pharetra, nisi id vehicula finibus, odio nunc euismod ante, consequat semper nibh arcu id velit. Nam a ante ut turpis auctor mollis sagittis et neque. Maecenas pharetra felis nibh, ut venenatis ipsum vulputate in."
-            android:textSize="16sp"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:text="O ODS 13 foca em tomar medidas urgentes para combater a mudança climática e seus impactos. Isso inclui a redução das emissões de gases de efeito estufa, a promoção de políticas de adaptação às mudanças climáticas e o fortalecimento da resiliência dos países e comunidades aos impactos climáticos. "
+            android:textSize="16sp" />
 
     </ScrollView>
 
