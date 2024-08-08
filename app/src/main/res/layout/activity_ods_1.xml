@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="A ODS 1 visa erradicar a pobreza em todas as suas formas e em todos os lugares. Isso envolve garantir que todas as pessoas, especialmente as mais vulneráveis, tenham acesso a recursos básicos como alimentação, abrigo e cuidados médicos. Além disso, busca-se criar condições para o crescimento econômico sustentável que possa beneficiar todos os segmentos da sociedade e proporcionar oportunidades para uma vida digna. "
+            android:text="O ODS 1 visa erradicar a pobreza em todas as suas formas e em todos os lugares. Isso envolve garantir que todas as pessoas, especialmente as mais vulneráveis, tenham acesso a recursos básicos como alimentação, abrigo e cuidados médicos. Além disso, busca-se criar condições para o crescimento econômico sustentável que possa beneficiar todos os segmentos da sociedade e proporcionar oportunidades para uma vida digna. "
             android:textSize="16sp" />
     </ScrollView>
 
