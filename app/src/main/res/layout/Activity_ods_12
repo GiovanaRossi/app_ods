@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#007BB5"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"
+            android:layout_marginRight="8dp"/>
+
+        <TextView
+            android:id="@+id/tvOdsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consumo e Produção Responsáveis"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvOdsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="O ODS 12 pretende assegurar padrões de consumo e produção sustentáveis. Envolve promover práticas de produção que reduzam o desperdício e a poluição, incentivar o uso responsável dos recursos naturais e promover a economia circular, onde os produtos são reutilizados e reciclados sempre que possível."
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+    </ScrollView>
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:layout_gravity="center_horizontal"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Footer -->
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giovana Rossi\nHenrique Cruz\nJohann Reis"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>
