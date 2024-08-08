@@ -40,92 +40,98 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="1" />
+            android:text="Ods 1" />
         <Button
             android:id="@+id/btn2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="2" />
+            android:text="Ods 2" />
             <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="3" />
+            android:text="Ods 3" />
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="4" />
+            android:text="Ods 4" />
             <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="5" />
+            android:text="Ods 5" />
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn6"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="7" />
+            android:text="Ods 6" />
             <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn7"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="8" />
-        <!-- Add buttons 9 to 16 in a similar way -->
+            android:text="Ods 7" />
         <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn8"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="1" />
+            android:text="Ods 8" />
+        <!-- Secunda coluna de botões -->
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn9"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="2" />
+            android:text="Ods 9" />
+        <Button
+            android:id="@+id/btn10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="Ods 10" />
             <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn11"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="3" />
+            android:text="Ods 11" />
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn12"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="4" />
+            android:text="Ods 12" />
             <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn13"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="5" />
+            android:text="Ods 13" />
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn14"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="6" />
+            android:text="Ods 14" />
             <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn15"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="7" />
+            android:text="Ods 15" />
         <Button
-            android:id="@+id/btn2"
+            android:id="@+id/btn16"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
-            android:text="8" />
+            android:text="Ods 16" />
         
         <!-- Button 17 -->
         <Button
@@ -133,7 +139,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnSpan="2"
-            android:text="17"
+            android:text="Ods 17"
             android:layout_gravity="center_horizontal" />
 
     </GridLayout>
@@ -143,7 +149,7 @@
         android:id="@+id/tvFooter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Participantes: Nome1, Nome2, Nome3, etc."
+        android:text="Participantes: Giovana Rossi, Henrique Cruz e Johann Reis"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="16dp" />
 
